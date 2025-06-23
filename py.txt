@@ -8,13 +8,29 @@ input = input("Enter die: ")
 
 if input == "20":
     roll = random.randint(1, 20)
+    print(f" Your roll: {roll}")
+elif input == "12":
+    roll = random.randint(1,12)
+    print(f" Your roll: {roll}")
+elif input == "10":
+    roll = random.int(1, 10)
+    print(f" Your roll: {roll}")
+elif input == "8":
+    roll = random.ranint(1, 8)
+    print(f" Your roll: {roll}")
 elif input == "6":
     roll = random.randint(1, 6)
+    print(f" Your roll: {roll}")
+elif input == "4":
+    roll = random.randint(1,4)
+    print(f" Your roll: {roll}")
+else:
+    print("Please enter valid die")
 
-print(f" You rolled a: {roll}")
 
 
 
 
 
 
+ 
